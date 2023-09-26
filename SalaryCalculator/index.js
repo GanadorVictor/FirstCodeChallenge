@@ -1,3 +1,4 @@
+// Read user input for annual income
 const readline = require('readline');
 const calculateIncomeTax = require('./salary');
 

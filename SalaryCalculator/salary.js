@@ -1,7 +1,7 @@
 // Function to calculate income tax
 function calculateIncomeTax(annualIncome) {
     let tax = 0;
-  
+      // Calculate tax based on income
     if (annualIncome <= 288000) {
       tax = annualIncome * 0.10;
     } else if (annualIncome <= 388000) {

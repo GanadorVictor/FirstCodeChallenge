@@ -1,6 +1,7 @@
 // This is the function for grading the marks
 
 const prompt = require('prompt-sync')();
+ // Get student mark from user
 function getGrade() {
   let mark = prompt('Enter the student mark')
     if (mark >= 80 && mark <= 100) {
