@@ -27,7 +27,7 @@ function calculateIncomeTax(annualIncome) {
     }
   
     // Apply personal tax relief
-    const personalRelief = 28800;
+    const personalRelief = 28800;__
     tax -= personalRelief;
   
     return tax;
